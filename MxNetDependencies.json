@@ -1,0 +1,27 @@
+{
+	"Dependencies":
+	[
+		{
+	   "Name":"OpenBlas",	
+	   "Url": "https://iweb.dl.sourceforge.net/project/openblas/v0.2.19/OpenBLAS-v0.2.19-Win64-int32.zip",
+	   "DownloadToLocation":"C:\\Users\\Administrator\\MyArchives",
+	   "ExtractToLocation" :"C:\\Users\\Administrator\\MyExtracts",
+	   "Extractor" : "\"C:\\Program Files\\7-zip\\7z.exe\" x {} -o{} -y"
+		},
+		{
+	   "Name":"OpenCV",  
+	   "Url": "https://phoenixnap.dl.sourceforge.net/project/opencvlibrary/opencv-win/3.4.1/opencv-3.4.1-vc14_vc15.exe",
+	   "DownloadToLocation":"C:\\Users\\Administrator\\MyArchives",
+	   "ExtractToLocation" :"C:\\Users\\Administrator\\MyExtracts",
+	   "Extractor" : "\"C:\\Program Files\\7-zip\\7z.exe\" x {} -o{} -y"
+		},
+	
+		{
+	   "Name":"MinGW",
+	   "Url": "https://phoenixnap.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe",
+	   "DownloadToLocation":"C:\\Users\\Administrator\\MyArchives",
+	   "ExtractToLocation" :"C:\\Users\\Administrator\\MyExtracts",
+	   "Extractor" : ""
+		}
+	]
+}
