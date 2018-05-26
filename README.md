@@ -21,22 +21,26 @@ Specify dependencies in following form:
    
 # Manual steps 
 
-A. Install visual studio 2015. community edition -
+A. Install visual studio 2015. community edition
+
   1. Sign up for Visual Studio Dev Essentials - https://www.visualstudio.com/dev-essentials/
   2. From downloads tab, choose "Visual Studio Community 2015 with Update 3"
   3. Run installer
 
 B. Download GIT
-   1. Download URL https://gitforwindows.org/
+
+   1.Download URL https://gitforwindows.org/
    2.Install. Choose default options on each screen.
 
 C. Clone mxnet
+
     1. Launch git bash, mkdir "Work"
     2. git clone https://github.com/apache/incubator-mxnet.git mxnet
     3. cd mxnet
     4. git submodule update --init --recursive
 
 D. Install cmake
+
    1. Download - https://cmake.org/files/v3.11/cmake-3.11.1-win64-x64.msi
    2. Install. Choose "Add cmake to the path for current user"
 
