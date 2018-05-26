@@ -78,4 +78,4 @@ F. Build Mxnet library
         1. Start "VS2015 x64 Native Tools Command Prompt" from the start menu
         2. cd    "C:\Users\Administrator\Work\MxNet"
         3. cmake CMakeLists.txt -DOpenBLAS_INCLUDE_DIR=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\include -   DOpenBLAS_LIB=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\lib\libopenblas.dll.a -DOpenCV_DIR=C:\Users\Administrator\Work\ThirdParty\opencv\build  -DUSE_CUDA=OFF -G "Visual Studio 14 2015 Win64"
-        4.devenv mxnet.sln /build "Release|x64"  /project ALL_BUILD.vcxpro
+        4. devenv mxnet.sln /build "Release|x64"  /project ALL_BUILD.vcxpro
