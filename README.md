@@ -5,7 +5,7 @@ in current folder.
 
 Specify dependencies in following form:
 
-
+```
    {  
    
    	   "Name":"OpenBlas",	
@@ -14,8 +14,8 @@ Specify dependencies in following form:
 	   "ExtractToLocation" :"C:\\Users\\Administrator\\MyExtracts",
 	   "Extractor" : "\"C:\\Program Files\\7-zip\\7z.exe\" x {} -o{} -y"
 	   
-   },
-    
+   }
+```    
    Note-  The path names should be ecnlosed in quotes if path components contain spaces. That explains why "Extractor" value is enquoted.
    Also, escape back slash characters. 
    
@@ -44,7 +44,7 @@ D. Install cmake
    1. Download - https://cmake.org/files/v3.11/cmake-3.11.1-win64-x64.msi
    2. Install. Choose "Add cmake to the path for current user"
 
-E. Install dependencies
+E. Install dependencies (You can skip this step if already using the python script to download the packages)
 
     A MinGW
         1. Download URL https://sourceforge.net/projects/mingw-w64/files/latest/download?source=typ_redirect
@@ -78,8 +78,7 @@ F. Build Mxnet library
 
  G. Build Command
  
- 
         1. Start "VS2015 x64 Native Tools Command Prompt" from the start menu
         2. cd    "C:\Users\Administrator\Work\MxNet"
-        3. cmake CMakeLists.txt -DOpenBLAS_INCLUDE_DIR=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\include -   DOpenBLAS_LIB=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\lib\libopenblas.dll.a -DOpenCV_DIR=C:\Users\Administrator\Work\ThirdParty\opencv\build  -DUSE_CUDA=OFF -G "Visual Studio 14 2015 Win64"
-        4. devenv mxnet.sln /build "Release|x64"  /project ALL_BUILD.vcxpro
+        3. cmake CMakeLists.txt -DOpenBLAS_INCLUDE_DIR=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\include -DOpenBLAS_LIB=C:\Users\Administrator\Work\ThirdParty\OpenBLAS\lib\libopenblas.dll.a -DOpenCV_DIR=C:\Users\Administrator\Work\ThirdParty\opencv\build  -DUSE_CUDA=OFF -G "Visual Studio 14 2015 Win64"
+        4. devenv mxnet.sln /build "Release|x64"  /project ALL_BUILD.vcxproj
