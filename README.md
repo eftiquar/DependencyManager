@@ -67,7 +67,7 @@ F. Build Mxnet library
    1. create a folder called "ThirdParty" under "Work" folder created above. ( typically C:\Users\Administrator\Work)
    2. Create a temp folder under "work" "C:\Users\Administrator\Work\temp"
 
-    Setup Copy OpenBlas
+    Setup OpenBlas
         1. Extract "OpenBLAS-v0.2.19-Win64-int32.zip" under temp folder
         2. Find a folder "OpenBLAS-v0.2.19-Win64-int32" in the extracted items
         3. Copy the contents of this folder to   C:\Users\Administrator\Work\ThirdParty\OpenBlas
